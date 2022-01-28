@@ -15,6 +15,6 @@ const ProductTag = require('./ProductTag');
 module.exports = {
   Product,
   Category,
-  Tag,
-  ProductTag,
+  // Tag,
+  // ProductTag,
 };
