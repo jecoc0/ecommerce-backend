@@ -1,12 +1,32 @@
 # 13 Object Relational Mapping (ORM): E-commerce Back End
 
-Internet retail, also known as e-commerce, is the largest sector of the electronics industry, having generated an estimated US$29 trillion in 2017 (Source: United Nations Conference on Trade and Development). E-commerce platforms like Shopify and WooCommerce provide a suite of services to businesses of all sizes. Due to the prevalence of these platforms, developers should understand the fundamental architecture of e-commerce sites.
+## Description
+This app was created using Sequelize to help track inventory for a small scale ecommerce site.  
 
-Your challenge is to build the back end for an e-commerce site. You’ll take a working Express.js API and configure it to use Sequelize to interact with a MySQL database.
+- Motivation: The client was looking for a way to track inventory for their ecommerce business and provide additional details for each product that will aid in optimizing their business.
 
-Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
+-Products, categories, and tags can easily be added, updated and deleted from an interactive API tool such as Insomnia. Products, categories, and tags can also be easily viewed through the same interface.
 
-Before you start, clone [the starter code](https://github.com/coding-boot-camp/fantastic-umbrella).
+## Installation
+
+In the command line at the root menu: 
+
+```md
+npm init
+npm install mysql2 sequelize
+
+## Usage
+In the command line, at the root of the project, run:
+```md
+`npm start`
+
+See [full walk-through]()
+
+## Credits
+Trilogy class code
+
+## License
+MIT License - Copyright Jessica Groves 2022 &copy;
 
 
 ## User Story
